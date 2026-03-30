@@ -32,7 +32,9 @@ make docker-build
 make docker-run
 ```
 
-The container maps host port **8080** to nginx on port **80**. Open:
+The container maps host port **8080** to nginx on port **80**. 
+
+Open on a browser:
 
 - [http://127.0.0.1:8080](http://127.0.0.1:8080)
 
