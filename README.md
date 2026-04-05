@@ -1,4 +1,4 @@
-# Bora Orneles — Customer Area UI
+# Bora Orneles — Customer Area Frontend (UI)
 
 Static **HTML**, **CSS**, and **JavaScript** for the customer registration and travel-plan flows. The app is served by **nginx** in Docker (`bora-fe.docker`) and calls the **Customer Area API** (Flask backend); see the companion repository for the server.
 
