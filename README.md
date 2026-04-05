@@ -21,7 +21,8 @@ Static **HTML**, **CSS**, and **JavaScript** for the customer registration and t
 
 ## Local setup
 
-There is no Node or Python install step. Ensure `bora-fe-service/images/` contains the assets referenced by `index.html` and the Dockerfile. Use the Docker workflow below to serve the site over HTTP so browser requests to the API match your `API_BASE_URL`.
+There is no Node or Python install step.
+Use the Docker workflow below to serve the site over HTTP so browser requests to the API match your `API_BASE_URL`.
 
 ## Docker
 
