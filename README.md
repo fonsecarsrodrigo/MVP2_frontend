@@ -1,6 +1,6 @@
 # Bora Orneles — Bora Orneles Management System (Frontend - UI)
 
-Static **HTML**, **CSS**, and **JavaScript** for the customer registration and travel-plan flows. The app is served by **nginx** in Docker (`bora-fe.docker`) and calls the **Customer Area API** (Flask backend); see the companion repository for the server.
+Static **HTML**, **CSS**, and **JavaScript** for the customer registration and travel-plan flows. The app is served by **nginx** in Docker (`bora-fe.docker`) and calls the **Customer Area API** (Flask backend); see the companion repository for the server. The app calls an external API, the **Via CEP API** to acquire address information from CEP number.
 
 ## External APIs
 ViaCEP API: A free, high-performance REST API that returns Brazilian address data (street, city, state, etc.) from a CEP (postal code). [Link](https://viacep.com.br/)
