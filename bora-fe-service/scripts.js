@@ -342,7 +342,7 @@ document.addEventListener('DOMContentLoaded', () => {
   customerForm = document.getElementById('customerForm');
   if (customerForm) {
     customerForm.addEventListener('submit', addCustomer);
-    setupViaCepAutofill(form);
+    setupViaCepAutofill(customerForm);
   }
 
   travelPlanForm = document.getElementById('travelPlanForm')
